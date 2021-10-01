@@ -72,8 +72,8 @@ public class SJF {
 	    	System.out.println(pid[i] +"\t"+ at[i]+"\t"+ k[i] +"\t"+ ct[i] +"\t"+ ta[i] +"\t"+ wt[i]);
 	    }
 	    
-	    System.out.println("\naverage tat is "+ (float)(avgta/n));
-	    System.out.println("average wt is "+ (float)(avgwt/n));
+	    System.out.println("\naverage tat is "+ (double)(avgta/n));
+	    System.out.println("average wt is "+ (double)(avgwt/n));
 	    sc.close();
 	}
 }
